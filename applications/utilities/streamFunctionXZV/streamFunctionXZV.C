@@ -88,7 +88,8 @@ int main(int argc, char *argv[])
             IOobject::NO_READ
         );
 
-        if (phiHeader.headerOk())
+        //if (phiHeader.typeHeaderOk())
+	if(1)
         {
             mesh.readUpdate();
 
