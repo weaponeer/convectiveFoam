@@ -1,0 +1,1000 @@
+ 1083  ./Allclean 
+ 1084  ./Allrun
+ 1085  ./Allclean 
+ 1086  ./Allrun
+ 1087  ./Allclean 
+ 1088  ./Allrun
+ 1089  ./Allclean 
+ 1090  scp -r ../work_case_new /home/q/76work/imu_catkin_work/src/paraGaden/vulcanFoam
+ 1091  ./Allclean 
+ 1092  ./Allrun
+ 1093  ./Allclean 
+ 1094  ./Allrun
+ 1095  ./Allclean 
+ 1096  ./Allrun
+ 1097  ./Allclean 
+ 1098  ./Allrun
+ 1099  ./Allclean 
+ 1100  ./Allrun
+ 1101  ./Allclean 
+ 1102  ./Allrun
+ 1103  ./Allclean 
+ 1104  ./Allrun
+ 1105  ./Allclean 
+ 1106  ./Allrun
+ 1107  ./Allclean 
+ 1108  ./Allrun
+ 1109  ./Allclean 
+ 1110  ./Allrun
+ 1111  ./Allclean 
+ 1112  ./Allrun
+ 1113  ./Allclean 
+ 1114  ./Allrun
+ 1115  ./Allclean 
+ 1116  ./Allrun
+ 1117  ./Allclean 
+ 1118  ./Allrun
+ 1119  ./Allclean 
+ 1120  ./Allrun
+ 1121  ./Allclean 
+ 1122  ./Allrun
+ 1123  ls -ltr 
+ 1124  ls -l 
+ 1125  ./Allclean 
+ 1126  ./Allrun
+ 1127  ./Allclean 
+ 1128  ./Allrun
+ 1129  ./Allclean 
+ 1130  ./Allrun
+ 1131  ./Allclean 
+ 1132  ./Allrun
+ 1133  ./Allclean 
+ 1134  ./Allrun
+ 1135  ./Allclean 
+ 1136  ./Allrun
+ 1137  ./Allclean 
+ 1138  ./Allrun
+ 1139  ./Allclean 
+ 1140  cp -r ~/OpenFOAM/q-6/tutorials/convectiveFoam/singlePlume/work_case_new /vole
+ 1141  cd /vole/work_case_new/
+ 1142  code ../work_case_new
+ 1143  ls
+ 1144  ./Allrun
+ 1145  ./Allclean 
+ 1146  ./Allrun
+ 1147  ./Allclean 
+ 1148  ./Allrun
+ 1149  cat log.* | less
+ 1150  ./Allclean 
+ 1151  ./Allrun
+ 1152  cat log.* | less
+ 1153  ./Allclean 
+ 1154  ./Allrun
+ 1155  cat log.* | less
+ 1156  ./Allclean 
+ 1157  ./Allrun
+ 1158  cat log.* | less
+ 1159  ./Allclean 
+ 1160  ./Allrun
+ 1161  cat log.* | less
+ 1162  ./Allclean 
+ 1163  ./Allrun
+ 1164  ./Allclean 
+ 1165  ./Allrun
+ 1166  ./Allclean 
+ 1167  ./Allrun
+ 1168  ./Allclean 
+ 1169  ./Allrun
+ 1170  ./Allclean 
+ 1171  ./Allrun
+ 1172  ./Allclean 
+ 1173  ./Allrun
+ 1174  ./Allclean 
+ 1175  ./Allrun
+ 1176  ./Allclean 
+ 1177  ./Allrun
+ 1178  ./Allclean 
+ 1179  funkySetFields --help
+ 1180  ./Allclean 
+ 1181  ./Allrun
+ 1182  ./Allclean 
+ 1183  ls -l $FOAM_TUTORIALS 
+ 1184  ls -l $FOAM_SRC 
+ 1185  ls -l $FOAM_TUTORIALS 
+ 1186  fgrep -ri swak $FOAM_TUTORIALS 
+ 1187  fgrep -ri groovy $FOAM_TUTORIALS 
+ 1188  fgrep -ri groovy $FOAM_INST_DIR 
+ 1189  fgrep -ri groovy /home/q/OpenFOAM/swak4Foam/Examples/
+ 1190  fgrep -ri swak /home/q/OpenFOAM/swak4Foam/Examples/
+ 1191  fgrep -ri swak /home/q/OpenFOAM/swak4Foam/Examples/ | less
+ 1192  pushd  /home/q/OpenFOAM/swak4Foam/Examples/ 
+ 1193  ls
+ 1194  cd FunkySetFields/
+ 1195  ls
+ 1196  vim setLowerHalfAndATube.funkySetFieldsDict 
+ 1197  cd ../
+ 1198  ls
+ 1199  cd BasicSourceSubclasses/
+ 1200  ls
+ 1201  cd pitzDailyWithImplicitSource/
+ 1202  ls
+ 1203  code ~/OpenFOAM/swak4Foam/Examples/BasicSourceSubclasses/pitzDailyWithImplicitSource
+ 1204  popd
+ 1205  ./Allclean 
+ 1206  ./Allrun
+ 1207  ./Allclean 
+ 1208  find ~/OpenFOAM/swak4Foam/Examples -name "Allrun"
+ 1209  find ~/OpenFOAM/swak4Foam/Examples -name "Allrun" | grep -i swak 
+ 1210  find ~/OpenFOAM/swak4Foam/Examples -name "Allrun" -exec grep -i swak {} \;
+ 1211  find ~/OpenFOAM/swak4Foam/Examples -name "Allrun" -exec grep -i funk {} \;
+ 1212  find ~/OpenFOAM/swak4Foam/Examples -name "Allrun" -exec cat {} \;
+ 1213  setSet --help
+ 1214  funkySetFields 
+ 1215  funkySetFields -time 0
+ 1216  ./Allclean 
+ 1217  funkySetFields -time 0
+ 1218  funkySetFields --help
+ 1219  fgrep -r funkySet ~/76work/imu_catkin_work/src/paraGaden/* 
+ 1220  fgrep -r funkySet ~/76work/imu_catkin_work/src/paraGaden/foamCase/* 
+ 1221  ls -lltr 
+ 1222  du -sh ~/76work/imu_catkin_work/src/
+ 1223  du -sh ~/76work/* 
+ 1224  du -sh ~/76work/tensorflow/
+ 1225  du -sh ~/76work/tensorflow/* 
+ 1226  ls -l 
+ 1227  du -sh ~/76work/* 
+ 1228  du -sh ~/76work/buCase
+ 1229  du -sh ~/76work/buCase/* 
+ 1230  fgrep -r funkySet ~/76work/buCase
+ 1231  funkySetFields 
+ 1232  funkySetFields -time 0 
+ 1233  ls
+ 1234  funkySetFields --help 
+ 1235  funkySetFields -time 0 -keepPatches
+ 1236  funkySetFields --help 
+ 1237  funkySetFields --help | less
+ 1238  funkySetFields -doc
+ 1239  funkySetFields -help
+ 1240  funkySetFields -case /vole/work_case_new
+ 1241  funkySetFields -case /vole/work_case_new -time 0 
+ 1242  ls -l constant/
+ 1243  ls system/
+ 1244  funkySetFields 
+ 1245  funkySetFields system/funkySetFieldsDict 
+ 1246  funkySetFields 
+ 1247  fgrep -r "time/latestTime" ~/OpenFOAM/swak4Foam/
+ 1248  vim /home/q/OpenFOAM/swak4Foam/Utilities/funkySetFields/funkySetFields.C
+ 1249  funkySetFields -time 0 
+ 1250  vim /home/q/OpenFOAM/swak4Foam/Utilities/funkySetFields/funkySetFields.C
+ 1251  funkySetFields -time 0 
+ 1252  ls -l 0 
+ 1253  ls -l 0/include/
+ 1254  ls -l system/
+ 1255  ./Allclean 
+ 1256  cat Allrun
+ 1257  runApplication blockMesh
+ 1258  vim Allrun
+ 1259  ./Allrun
+ 1260  ls -ltr 
+ 1261  ls -ltr 0/T.orig 
+ 1262  vim 0/T.orig 
+ 1263  vim 0/
+ 1264  vim Allrun
+ 1265  ./Allclean 
+ 1266  ./Allrun
+ 1267  ./Allclean 
+ 1268  ./Allrun
+ 1269  ./Allclean 
+ 1270  ./Allrun
+ 1271  ./Allclean 
+ 1272  ./Allrun
+ 1273  ./Allclean 
+ 1274  ./Allrun
+ 1275  ./Allclean 
+ 1276  ./Allrun
+ 1277  cp ~/76work/imu_catkin_work/src/paraGaden/vulcanFoam/*.dem ./
+ 1278  cp ~/76work/imu_catkin_work/src/paraGaden/foamCase/vtkstl_from_geotiff.py ./
+ 1279  ls -ltr 
+ 1280  ls -ltr
+ 1281  history 
+ 1282  ./Allclean 
+ 1283  ls
+ 1284  ./Allrun
+ 1285  ./Allclean 
+ 1286  ./Allrun
+ 1287  ./Allclean 
+ 1288  ./Allrun
+ 1289  ./Allclean 
+ 1290  ./Allrun
+ 1291  ./Allclean 
+ 1292  ./Allrun
+ 1293  ./Allclean 
+ 1294  ./Allrun
+ 1295  ./Allclean 
+ 1296  ./Allrun
+ 1297  ./Allclean 
+ 1298  ./Allrun
+ 1299  ./Allclean 
+ 1300  ./Allrun
+ 1301  vim log.convectiveFoam 
+ 1302  cat log.* | less
+ 1303  ./Allclean 
+ 1304  ./Allrun
+ 1305  ./Allclean 
+ 1306  ./Allrun
+ 1307  ls -ltr 
+ 1308  ./Allclean 
+ 1309  ls
+ 1310  head vtkstl_from_geotiff.py 
+ 1311  vim wizard.dat
+ 1312  ls
+ 1313  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="3500,5000,400" --inputGeoTif ./clipped_crater.tif --outputPrefix mostlyham_deg_00
+ 1314  ls
+ 1315  rm mostlyham_deg_00* 
+ 1316  vim vtkstl_from_geotiff.py 
+ 1317  ls -ltr 
+ 1318  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="3500,5000,400" --inputGeoTif ./clipped_crater.tif --outputPrefix mostlyham_deg_00
+ 1319  ls -ltr 
+ 1320  rm mostlyham_deg_00
+ 1321  rm mostlyham_deg_00*
+ 1322  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="3500,5000,400" --inputGeoTif ./clipped_crater.tif --outputPrefix wiz_deg_00
+ 1323  ls
+ 1324  paraview 
+ 1325  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --outputPrefix wiz_deg_00
+ 1326  paraview 
+ 1327  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --outputPrefix wiz_deg_00
+ 1328  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord=569783.3,4754174.5,2084.0454,30 --outputPrefix wiz_deg_00
+ 1329  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord=[569783.3,4754174.5,2084.0454,30.0] --outputPrefix wiz_deg_00
+ 1330  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.3,4754174.5,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1331  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="[569783.3,4754174.5,2084.0454,30.0]" --outputPrefix wiz_deg_00
+ 1332  head vtkstl_from_geotiff.py 
+ 1333  fgrep -r _geotiff ~/76work/imu_catkin_work/src/paraGaden/foamCase/*
+ 1334  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.3,4754174.5,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1335  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1336  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454" --outputPrefix wiz_deg_00
+ 1337  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1338  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif  --outputPrefix wiz_deg_00
+ 1339  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1340  l s-ltr 
+ 1341  ls -ltr 
+ 1342  paraview 
+ 1343  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1344  blender
+ 1345  gmesh
+ 1346  paraview 
+ 1347  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569783.30,4754174.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1348  paraview 
+ 1349  bg
+ 1350  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569793.30,4754184.50,2084.0454,30.0" --outputPrefix wiz_deg_00
+ 1351  history 
+ 1352  ./vtkstl_from_geotiff.py --theta 0.00 --tsize="5500,5000,4000" --inputGeoTif ./clipped_crater.tif --srcCoord="569773.30,4754164.50,2084.0454,100.0" --outputPrefix wiz_deg_00
+ 1353  ls -ltr 
+ 1354  cp ~/76work/imu_catkin_work/src/paraGaden/foamCase/deploy.sh ./
+ 1355  cp ~/76work/imu_catkin_work/src/paraGaden/foamCase/system/snappyHexMeshDict ./system/
+ 1356  ./Allclean 
+ 1357  ls -ltr 
+ 1358  cp -r ../work_case_new/ ../work_case_new_bu
+ 1359  history 
+ 1360  ./Allrun
+ 1361  ./Allclean 
+ 1362  mkdir constant/triSurface
+ 1363  ./Allrun
+ 1364  cat log.* | less
+ 1365  fgrep -r sideone * 
+ 1366  ls
+ 1367  rm -rf processor* 
+ 1368  ls
+ 1369  ls -ltr 
+ 1370  fgrep -r sideone * 
+ 1371  history 
+ 1372  cp ~/76work/imu_catkin_work/src/paraGaden/foamCase/0/include/sideAndTopPatches ./0/include/
+ 1373  ./Allclean 
+ 1374  ./Allrun
+ 1375  vim log.snappyHexMesh 
+ 1376  ./Allrun
+ 1377  vim log.snappyHexMesh 
+ 1378  ./Allrun
+ 1379  vim log.snappyHexMesh 
+ 1380  ./Allrun
+ 1381  vim /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/system/snappyHexMeshDict 
+ 1382  ./Allrun
+ 1383  vim log.snappyHexMesh 
+ 1384  ls -l 
+ 1385  ./Allclean 
+ 1386  reset 
+ 1387  ls -ltr 
+ 1388  vim Allrun
+ 1389  ./Allrun
+ 1390  vim log.snappyHexMesh 
+ 1391  PARAVIEW
+ 1392  paraview
+ 1393  code /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/system/snappyHexMeshDict 
+ 1394  ./Allrun
+ 1395  ./Allclean 
+ 1396  ./Allrun
+ 1397  vim log.snappyHexMesh 
+ 1398  find  /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/ -name "*.eMesh"
+ 1399  fgrep -r eMesh  /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/*
+ 1400  vim  /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/Allrun 
+ 1401  ./Allrun
+ 1402  ./Allclean 
+ 1403  ./Allrun
+ 1404  vim log.snappyHexMesh 
+ 1405  vim  /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/system/surfaceFeaturesDict 
+ 1406  cp /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater/system/surfaceFeaturesDict ./system/
+ 1407  ./Allclean 
+ 1408  ./Allrun
+ 1409  paraview 
+ 1410  ls -ltr 
+ 1411  vim log.snappyHexMesh 
+ 1412  vim log.topoSet 
+ 1413  vim log.convectiveFoam 
+ 1414  ./Allclean 
+ 1415  ./Allrun
+ 1416  vim log.funkySetFields 
+ 1417  vim log.snappyHexMesh 
+ 1418  vim log.convectiveFoam 
+ 1419  ls -ltr 
+ 1420  paraview 
+ 1421  ls -ltr 
+ 1422  ls
+ 1423  ls -l ./constant/
+ 1424  ls -l ./constant/extendedFeatureEdgeMesh/
+ 1425  ls -l ./constant/polyMesh/
+ 1426  ./Allclean 
+ 1427  ./Allrun
+ 1428  paraview 
+ 1429  ./Allclean 
+ 1430  ./Allrun
+ 1431  code /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/snappyHexMesh/snappyMultiRegionHeater
+ 1432  ls -ltr 
+ 1433  ./Allclean 
+ 1434  ls -ltr 
+ 1435  ./Allclean 
+ 1436  ./Allrun
+ 1437  vim log.snappyHexMesh 
+ 1438  ./Allclean 
+ 1439  ./Allrun
+ 1440  paraview 
+ 1441  vim log.snappyHexMesh 
+ 1442  ./Allclean 
+ 1443  ./Allrun
+ 1444  paraview 
+ 1445  vim log.convectiveFoam 
+ 1446  ./Allclean 
+ 1447  ./Allrun
+ 1448  vim log.convectiveFoam 
+ 1449  ls -ltr 
+ 1450  ls -ltr 0
+ 1451  vim 0/T
+ 1452  paraview 
+ 1453  ./Allclean 
+ 1454  ./Allrun
+ 1455  vim log.snappyHexMesh 
+ 1456  vim log.funkySetFields 
+ 1457  vim log.convectiveFoam 
+ 1458  ./Allclean 
+ 1459  ./Allrun
+ 1460  vim log.snappyHexMesh 
+ 1461  vim Allrun
+ 1462  ./Allclean 
+ 1463  ./Allrun
+ 1464  vim log.snappyHexMesh 
+ 1465  ./Allclean 
+ 1466  ./Allrun
+ 1467  paraview 
+ 1468  ls -ltr 
+ 1469  fgrep -r funkySet $FOAM_TUTORIALS 
+ 1470  fgrep -r groovy $FOAM_TUTORIALS 
+ 1471  fgrep -r groovy /home/q/OpenFOAM/swak4Foam/Examples/
+ 1472  fgrep -r funky /home/q/OpenFOAM/swak4Foam/Examples/
+ 1473  vim /home/q/OpenFOAM/swak4Foam/Examples/tests/delayedMappingChannels/prepareCase.sh
+ 1474  ./Allclean 
+ 1475  ./Allrun
+ 1476  vim log.snappyHexMesh 
+ 1477  ./Allclean 
+ 1478  vim ./Allrun
+ 1479  ./Allrun
+ 1480  tail log.snappyHexMesh 
+ 1481  vim log.convectiveFoam 
+ 1482  ./Allclean 
+ 1483  ./Allrun
+ 1484  ./Allclean 
+ 1485  ./Allrun
+ 1486  ./Allclean 
+ 1487  ./Allrun
+ 1488  vim log.funkySetFields 
+ 1489  ls -ltr 
+ 1490  vim log.convectiveFoam 
+ 1491  ls -l 0/T
+ 1492  vim log.convectiveFoam 
+ 1493  ls -l processor0/
+ 1494  decomposePar 
+ 1495  decomposePar -help
+ 1496  ./Allclean 
+ 1497  ./Allrun
+ 1498  vim log.convectiveFoam 
+ 1499  vim /vole/work_case_new/processor5/0/T.boundaryField
+ 1500  vim /vole/work_case_new/processor5/0/T
+ 1501  ./Allclean 
+ 1502  ./Allrun
+ 1503  vim log.convectiveFoam 
+ 1504  ./Allclean 
+ 1505  ./Allrun
+ 1506  ./Allclean 
+ 1507  ./Allrun
+ 1508  vim log.convectiveFoam 
+ 1509  ./Allclean 
+ 1510  paraview 
+ 1511  ./Allclean 
+ 1512  ./Allrun
+ 1513  vim log.convectiveFoam 
+ 1514  vim Allrun
+ 1515  paraview 
+ 1516  ls -ltr processor
+ 1517  ls -ltr processor0
+ 1518  ls -ltr processor0/0/
+ 1519  ls -ltr processor0/0/include/
+ 1520  vim  processor0/0/U 
+ 1521  ./Allclean 
+ 1522  ./Allrun
+ 1523  topoSet -help
+ 1524  ./Allclean 
+ 1525  ./Allrun
+ 1526  paraview
+ 1527  ls -ltr 
+ 1528  ./Allclean 
+ 1529  ls
+ 1530  ls -l 
+ 1531  ./Allrun
+ 1532  paraview 
+ 1533  ./Allclean 
+ 1534  ls
+ 1535  pwd
+ 1536  cp -R ./* ~/76work/imu_catkin_work/src/paraGaden/vulcanFoam/
+ 1537  ls -ltr constant/triSurface/
+ 1538  rm constant/triSurface/*
+ 1539  ls -ltr 
+ 1540  ./Allclean 
+ 1541  ./Allrun
+ 1542  paraview 
+ 1543  ./Allclean 
+ 1544  vim Allrun
+ 1545  ./Allrun
+ 1546  ls -ltr ../
+ 1547  code ../work_case_new_bu
+ 1548  ./Allrun
+ 1549  ./Allclean 
+ 1550  ./Allrun
+ 1551  ./Allclean 
+ 1552  ./Allrun
+ 1553  clear
+ 1554  ls
+ 1555  cd ..
+ 1556  cp -R /home/q/76work/imu_catkin_work/src/paraGaden/foamCase ./fold_in
+ 1557  ls work_case_new/*.dem ./
+ 1558  ls work_case_new/*.dem 
+ 1559  cp work_case_new/vtkstl_from_geotiff.py ./fold_in/
+ 1560  cp work_case_new/*.dem fold_in/
+ 1561  ls -ltr 
+ 1562  head work_case_new/Allrun
+ 1563  code fold_in/
+ 1564  cat work_case_new/deploy.sh 
+ 1565  cd fold_in/
+ 1566  ls -ltr 
+ 1567  rm foofile_deg_300_00*
+ 1568  ls
+ 1569  rm cdem_dem_082P_nad83utm12n*
+ 1570  ls
+ 1571  rm CATKIN_IGNORE 
+ 1572  ls
+ 1573  rm fivehundred.tif lake_city* 
+ 1574  ls -ltr 
+ 1575  rm *.dae *.vti
+ 1576  ls
+ 1577  ls -ltr 
+ 1578  rm *.csv
+ 1579  ls
+ 1580  rm *.kmz
+ 1581  ls
+ 1582  rm *.pvsm
+ 1583  ls
+ 1584  ls -ltr 
+ 1585  rm *.ply racoon.meta *.stl hostfile blockMeshDict 
+ 1586  ls -ltr 
+ 1587  ./Allrun 
+ 1588  ./Allclean 
+ 1589  ./Allrun 
+ 1590  cp ../work_case_new/*.tif ./
+ 1591  ./Allclean 
+ 1592  ./Allrun 
+ 1593  ls -l 
+ 1594  vim log.simpleFoam 
+ 1595  ./Allclean 
+ 1596  ./Allrun 
+ 1597  ls -ltr 
+ 1598  vim Allrun 
+ 1599  find ./ -name "terrain*"
+ 1600  vim log.snappyHexMesh 
+ 1601  ./Allclean 
+ 1602  vim Allrun 
+ 1603  ./Allrun 
+ 1604  vim Allrun 
+ 1605  ./Allclean 
+ 1606  ./Allrun 
+ 1607  ls
+ 1608  ls -ltr 
+ 1609  paraview 
+ 1610  ./Allclean 
+ 1611  ./Allrun 
+ 1612  ./Allclean 
+ 1613  ./Allrun 
+ 1614  paraview 
+ 1615  ./Allclean 
+ 1616  ./Allrun 
+ 1617  paraview 
+ 1618  ls
+ 1619  ls -l constant/triSurface/
+ 1620  ./Allclean 
+ 1621  ./Allrun 
+ 1622  ls
+ 1623  vim log.snappyHexMesh 
+ 1624  vim log.simpleFoam 
+ 1625  ls -ltr 
+ 1626  ./Allrun 
+ 1627  ./Allclean 
+ 1628  ./Allrun 
+ 1629  ls -ltr 
+ 1630  paraview 
+ 1631  bg
+ 1632  ls -ltr 
+ 1633  code ../work_case_new/0/
+ 1634  ./Allclean 
+ 1635  ./Allrun 
+ 1636  ls
+ 1637  vim log.simpleFoam 
+ 1638  ./Allclean 
+ 1639  ./Allrun 
+ 1640  vim ../work_case_new/Allrun
+ 1641  ./Allclean 
+ 1642  ./Allrun 
+ 1643  ./Allclean 
+ 1644  ./Allrun 
+ 1645  ls
+ 1646  ls -ltr 
+ 1647  ./Allclean 
+ 1648  ./Allrun 
+ 1649  ls
+ 1650  paraview 
+ 1651  code ../work_case_new
+ 1652  ls
+ 1653  ls -ltr 
+ 1654  fg
+ 1655  paraview 
+ 1656  ./Allclean 
+ 1657  ./Allrun 
+ 1658  ls -ltr 
+ 1659  ./Allclean 
+ 1660  ./Allrun 
+ 1661  vim log.convectiveFoam 
+ 1662  ./Allrun 
+ 1663  ./Allclean 
+ 1664  ./Allrun 
+ 1665  vim log.convectiveFoam 
+ 1666  ./Allclean 
+ 1667  ./Allrun 
+ 1668  vim log.convectiveFoam 
+ 1669  ./Allclean 
+ 1670  ./Allrun 
+ 1671  vim log.convectiveFoam 
+ 1672  ./Allclean 
+ 1673  ./Allrun 
+ 1674  vim Allrun 
+ 1675  ./Allclean 
+ 1676  ./Allrun 
+ 1677  ls
+ 1678  ./Allclean 
+ 1679  ./Allrun 
+ 1680  ./Allclean 
+ 1681  ./Allrun 
+ 1682  ./Allclean 
+ 1683  ./Allrun 
+ 1684  ./Allclean 
+ 1685  ./Allrun 
+ 1686  ./Allclean 
+ 1687  ./Allrun 
+ 1688  ./Allclean 
+ 1689  ./Allrun 
+ 1690  ./Allclean 
+ 1691  ./Allrun 
+ 1692  ./Allclean 
+ 1693  ./Allrun 
+ 1694  ./Allclean 
+ 1695  ./Allrun 
+ 1696  ./Allclean 
+ 1697  ./Allrun 
+ 1698  ./Allclean 
+ 1699  ./Allrun 
+ 1700  ./Allclean 
+ 1701  ./Allrun 
+ 1702  df
+ 1703  ls
+ 1704  ls -l processor0/
+ 1705  ./Allclean 
+ 1706  ./Allrun 
+ 1707  vim log.convectiveFoam 
+ 1708  ./Allclean 
+ 1709  ./Allrun 
+ 1710  ./Allclean 
+ 1711  ./Allrun 
+ 1712  ./Allclean 
+ 1713  ./Allrun 
+ 1714  ./Allclean 
+ 1715  ./Allrun 
+ 1716  ./Allclean 
+ 1717  ./Allrun 
+ 1718  ./Allclean 
+ 1719  ./Allrun 
+ 1720  ./Allclean 
+ 1721  ./Allrun 
+ 1722  ./Allclean 
+ 1723  ./Allrun 
+ 1724  ./Allclean 
+ 1725  cp wiz_deg_00_src_clean.stl constant/triSurface/theVent.stl 
+ 1726  vim ./Allrun 
+ 1727  ./Allrun 
+ 1728  ./Allclean 
+ 1729  ./Allrun 
+ 1730  rm log.convectiveFoam log.reconstructParMesh log.reconstructPar
+ 1731  ./Allrun 
+ 1732  rm log.convectiveFoam log.reconstructParMesh log.reconstructPar
+ 1733  ./Allrun 
+ 1734  rm log.convectiveFoam log.reconstructParMesh log.reconstructPar
+ 1735  ./Allrun 
+ 1736  rm log.convectiveFoam log.reconstructParMesh log.reconstructPar
+ 1737  ./Allrun 
+ 1738  rm log.convectiveFoam log.reconstructParMesh log.reconstructPar
+ 1739  ./Allrun 
+ 1740  ./Allclean 
+ 1741  ./Allrun 
+ 1742  ./Allclean 
+ 1743  ./Allrun 
+ 1744  ./Allclean 
+ 1745  ./Allrun 
+ 1746  ./Allclean 
+ 1747  ./Allrun 
+ 1748  ./Allclean 
+ 1749  ./Allrun 
+ 1750  ./Allclean 
+ 1751  code ../fold_in
+ 1752  cat Allrun 
+ 1753  ./Allrun 
+ 1754  ./Allclean 
+ 1755  ./Allrun 
+ 1756  ./Allclean 
+ 1757  code ../work_case_new_bu/
+ 1758  code ~/76work/imu_catkin_work/src/paraGaden/foamCase/
+ 1759  ls
+ 1760  ls -ltr 
+ 1761  ./Allclean 
+ 1762  ./Allrun 
+ 1763  paraview 
+ 1764  ./Allclean 
+ 1765  ./Allrun 
+ 1766  ./Allclean 
+ 1767  ./Allrun 
+ 1768  ./Allclean 
+ 1769  ./Allrun 
+ 1770  ./Allclean 
+ 1771  ./Allrun 
+ 1772  ./Allclean 
+ 1773  ./Allrun 
+ 1774  ls -ltr 
+ 1775  ./Allclean 
+ 1776  ls -ltr 
+ 1777  ./Allrun 
+ 1778  ./Allclean 
+ 1779  ./Allrun 
+ 1780  ./Allclean 
+ 1781  checkMesh 
+ 1782  find $FOAM_TUTORIALS -name "collapse*"
+ 1783  cp /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/foamyHexMesh/mixerVessel/system/collapseDict ./system/
+ 1784  cp /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/foamyHexMesh/mixerVessel/system/meshQualityDict ./system/
+ 1785  vim system/meshQualityDict 
+ 1786  ls
+ 1787  cp /home/q/OpenFOAM/OpenFOAM-6/tutorials/mesh/foamyHexMesh/mixerVessel/system/collapseDict* ./system/
+ 1788  ./Allclean 
+ 1789  ./Allrun 
+ 1790  ./Allclean 
+ 1791  ./Allrun 
+ 1792  ./Allclean 
+ 1793  ./Allrun 
+ 1794  ls -ltr 
+ 1795  vim Allrun 
+ 1796  vim log.collapseFaces
+ 1797  vim Allrun 
+ 1798  rm log.collapseFace*
+ 1799  ./Allrun 
+ 1800  ls -ltr 
+ 1801  vim log.collapseFace* 
+ 1802  vim log.checkMesh 
+ 1803  rm log.checkMesh 
+ 1804  ./Allrun 
+ 1805  rm log.reconstructParMesh 
+ 1806  ./Allrun 
+ 1807  ./Allclean 
+ 1808  ls -ltr 
+ 1809  vim ./Allrun 
+ 1810  ./Allrun 
+ 1811  ls -ltr 
+ 1812  paraview 
+ 1813  vim Allrun 
+ 1814  ./Allrun 
+ 1815  vim log.convectiveFoam 
+ 1816  ./Allclean 
+ 1817  ./Allrun 
+ 1818  ./Allclean 
+ 1819  ./Allrun 
+ 1820  ./Allclean 
+ 1821  vim Allrun 
+ 1822  ./Allrun 
+ 1823  ./Allclean 
+ 1824  ./Allrun 
+ 1825  ./Allclean 
+ 1826  ls
+ 1827  cp -R ../fold_in ~/76work/
+ 1828  pushd ~/76work/fold_in/
+ 1829  ./Allrun 
+ 1830  ./Allclean 
+ 1831  ./Allrun 
+ 1832  paraview
+ 1833  ./Allclean 
+ 1834  ./Allrun 
+ 1835  ./Allclean 
+ 1836  ./Allrun 
+ 1837  ./Allclean 
+ 1838  ./Allrun 
+ 1839  ./Allclean 
+ 1840  vim Allrun 
+ 1841  ./Allrun 
+ 1842  ./Allclean 
+ 1843  vim Allrun 
+ 1844  ./Allrun 
+ 1845  ./Allclean 
+ 1846  ./Allrun 
+ 1847  ls
+ 1848  ./Allclean 
+ 1849  ./Allrun 
+ 1850  ls
+ 1851  ./Allclean 
+ 1852  ./Allrun 
+ 1853  ./Allclean 
+ 1854  ./Allrun 
+ 1855  ./Allclean 
+ 1856  ./Allrun 
+ 1857  ./Allclean 
+ 1858  ./Allrun 
+ 1859  ./Allclean 
+ 1860  ./Allrun 
+ 1861  ./Allclean 
+ 1862  ./Allrun 
+ 1863  fgrep -r Towneplace ~/.* 
+ 1864  ping io.com
+ 1865  ./Allclean 
+ 1866  ./Allrun 
+ 1867  ./Allclean 
+ 1868  ./Allrun 
+ 1869  ./Allclean 
+ 1870  ./Allrun 
+ 1871  ./Allfoam 
+ 1872  ./Allclean 
+ 1873  ./Allrun 
+ 1874  ./Allclean 
+ 1875  code ../fold_in/
+ 1876  ./Allclean 
+ 1877  ./Allrun 
+ 1878  ./Allclean 
+ 1879  funkySetFields -help
+ 1880  ./Allclean 
+ 1881  ./Allrun 
+ 1882  ./Allclean 
+ 1883  ./Allrun 
+ 1884  ./Allclean 
+ 1885  ./Allrun 
+ 1886  ./Allclean 
+ 1887  ./Allrun 
+ 1888  ./Allclean 
+ 1889  ./Allrun 
+ 1890  ./Allclean 
+ 1891  ./Allrun 
+ 1892  clear
+ 1893  ls
+ 1894  w
+ 1895  ls
+ 1896  ls -ltr 
+ 1897  history 
+ 1898  ls -l processor0/
+ 1899  vim system/controlDict 
+ 1900  ls -l 
+ 1901  vim system/controlDict 
+ 1902  ./Allclean 
+ 1903  ./Allrun 
+ 1904  ./Allclean 
+ 1905  ./Allrun 
+ 1906  ./Allclean 
+ 1907  ./Allrun 
+ 1908  ./Allclean 
+ 1909  ./Allrun 
+ 1910  ./Allclean 
+ 1911  ./Allrun 
+ 1912  ./Allclean 
+ 1913  ./Allrun 
+ 1914  ./Allclean 
+ 1915  ./Allrun 
+ 1916  ./Allclean 
+ 1917  ./Allrun 
+ 1918  ls -ltr 
+ 1919  vim Allfoam 
+ 1920  ./Allclean 
+ 1921  ./Allrun 
+ 1922  df
+ 1923  ./Allclean 
+ 1924  ./Allrun 
+ 1925  ./Allclean 
+ 1926  sudo reboot
+ 1927  cd ..
+ 1928  ls
+ 1929  cd ..
+ 1930  ls
+ 1931  vim 76work/imu_catkin_work/src/paraGaden/docker/Dockerfile 
+ 1932  cd 76work/ventusFilament/
+ 1933  ls -ltr 
+ 1934  history | grep cp
+ 1935  code plumegeneratortool
+ 1936  find ~/ -name plumegeneratortool
+ 1937  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1938  git diff
+ 1939  git add -u 
+ 1940  git commit -m "luftlozenge"
+ 1941  ls -l 
+ 1942  git status 
+ 1943  git push 
+ 1944  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1945  git diff
+ 1946  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1947  ls -ltr 
+ 1948  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1949  qgis
+ 1950  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1951  qgis
+ 1952  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1953  qgis
+ 1954  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1955  ls -l /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+ 1956  rm -rf /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/plumegeneratortool
+ 1957  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1958  ls -l /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins/
+ 1959  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1960  qgis
+ 1961  paraview 
+ 1962  bg
+ 1963  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1964  qgis
+ 1965  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1966  qgis
+ 1967  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1968  qgis
+ 1969  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1970  qgis
+ 1971  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1972  qgis
+ 1973  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1974  qgis
+ 1975  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1976  qgis
+ 1977  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1978  qgis
+ 1979  cp -r ./plumegeneratortool /home/q/.local/share/QGIS/QGIS3/profiles/default/python/plugins
+ 1980  qgis
+ 1981  code convectiveFoam
+ 1982  ls -ltr 
+ 1983  cd flexpart/
+ 1984  ls -ltr 
+ 1985  vim README.md 
+ 1986  cd documentation/
+ 1987  ls
+ 1988  open
+ 1989  open flexpart
+ 1990  launch flexpart
+ 1991  apt-cache search launch 
+ 1992  apt-cache search launch | grep command 
+ 1993  cd ../src/
+ 1994  ls
+ 1995  make
+ 1996  cd ..
+ 1997  ls -ltr 
+ 1998  cd /home/q/76work/fold_in_042319 ; env PYTHONIOENCODING=UTF-8 PYTHONUNBUFFERED=1 /usr/bin/python3 /home/q/.vscode/extensions/ms-python.python-2019.4.11987/pythonFiles/ptvsd_launcher.py --default --client --host localhost --port 37465 /home/q/76work/fold_in_042319/.vscode/launch.json 
+ 1999  cd
+ 2000  cd 76work/
+ 2001  git clone git@gitlab.kitware.com:paraview/paraview.git
+ 2002  vim ~/.ssh/known_hosts 
+ 2003  git clone git@gitlab.kitware.com:paraview/paraview.git
+ 2004  git clone https://github.com/Kitware/ParaView.git
+ 2005  ls -ltr 
+ 2006  code ../OpenFOAM/ThirdParty-6
+ 2007  source ~/OpenFOAM/OpenFOAM-6/etc/bashrc 
+ 2008  env | grep -i para
+ 2009  cd ../OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/
+ 2010  ls
+ 2011  cd graphics/PVReaders/
+ 2012  ./Allwmake 
+ 2013  paraFoam 
+ 2014  popd
+ 2015  ls
+ 2016  cd
+ 2017  cd 76work/convectiveFoam/tutorials/
+ 2018  ls
+ 2019  cd singlePlume
+ 2020  ls
+ 2021  ls -ltr 
+ 2022  cd Pr1_Ra1e6_limLin
+ 2023  paraFoam 
+ 2024  vim /home/q/OpenFOAM/OpenFOAM-6/applications/utilities/postProcessing/graphics/PVReaders/PVFoamReader/vtkPVFoamReader.cxx
+ 2025  paraFoam 
+ 2026  pushd ~/76work/IslaDelBrujo/
+ 2027  paraFoam 
+ 2028  popd
+ 2029  paraFoam 
+ 2030  paraview
+ 2031  ls -lrt
+ 2032  cat Allrun 
+ 2033  popd
+ 2034  cd ~/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin
+ 2035  ls -ltr 
+ 2036  paraFoam 
+ 2037  foamToVTK 
+ 2038  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/omega.boundaryField
+ 2039  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/omega 
+ 2040  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/alphat 
+ 2041  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/omega 
+ 2042  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/U 
+ 2043  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/epsilon 
+ 2044  foamToVTK 
+ 2045  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/omega 
+ 2046  foamToVTK 
+ 2047  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/U 
+ 2048  vim /home/q/76work/convectiveFoam/tutorials/singlePlumeParticle/Pr1_Ra1e6_limLin/0/omega 
+ 2049  foamToVTK 
+ 2050  ls -ltr 
+ 2051  paraFoam 
+ 2052  foamToVTK --help
+ 2053  ls -ltr 
+ 2054  ls -l VTK/
+ 2055  ls -l VTK/lagrangian/
+ 2056  ls -l VTK/lagrangian/kinematicCloud/
+ 2057  paraview
+ 2058  paraFoam 
+ 2059  ls
+ 2060  ls -l VTK/
+ 2061  ls -l VTK/lagrangian/
+ 2062  ls -l VTK/lagrangian/kinematicCloud/
+ 2063  paraview
+ 2064  ./Allclean 
+ 2065  ls -ltr 
+ 2066  vim 0/U 
+ 2067  vim constant/g 
+ 2068  vim constant/kinematicCloudProperties 
+ 2069  ./Allrun 
+ 2070  ls
+ 2071  paraFoam 
+ 2072  foamToVTK 
+ 2073  paraview
+ 2074  vim constant/kinematicCloudProperties 
+ 2075  vim system/controlDict 
+ 2076  ./Allclean 
+ 2077  ls
+ 2078  ls -l 
+ 2079  ./Allrun 
+ 2080  foamToVTK 
+ 2081  paraview
+ 2082  history > save_hist 
