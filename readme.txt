@@ -34,3 +34,7 @@ How to use convectiveFoam?
   using the following commands:
     cd $WM_PROJECT_USER_DIR/tutorials/convectiveFoam/singlePlume/Pr1_Ra1e6_limLin
     ./Allrun
+    
+04/29/19 -- MH
+
+Added laplacian term as per (https://www.foamacademy.com/wp-content/uploads/2016/11/GOFUN2017_ParticleSimulations_slides.pdf)
