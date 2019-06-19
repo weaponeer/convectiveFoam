@@ -86,6 +86,8 @@ class PatchInjection
         //- Parcel size distribution model
         const autoPtr<distributionModel> sizeDistribution_;
 
+        label parId_;
+
 
 public:
 

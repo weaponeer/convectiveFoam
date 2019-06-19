@@ -25,6 +25,11 @@ rsync -uav applications/solvers/convectiveFoam $WM_PROJECT_USER_DIR/applications
 rsync -uav applications/solvers/convectivePrInf $WM_PROJECT_USER_DIR/applications/solvers
 (cd $WM_PROJECT_USER_DIR/applications/solvers/convectivePrInf/ && wmake)
 
+# Compile  particles+
+rsync -uav applications/solvers/convectiveFoamParticle $WM_PROJECT_USER_DIR/applications/solvers
+(cd $WM_PROJECT_USER_DIR/applications/solvers/convectiveFoamParticle/lagrangian/intermediate/ && wmake)
+(cd $WM_PROJECT_USER_DIR/applications/solvers/convectiveFoamParticle/ && wmake)
+
 # Compile Utilities
 mkdir -p $WM_PROJECT_USER_DIR/applications/utilities
 rsync -uav applications/utilities/streamFunctionXZV $WM_PROJECT_USER_DIR/applications/utilities
@@ -33,5 +38,9 @@ rsync -uav applications/utilities/streamFunctionXZV $WM_PROJECT_USER_DIR/applica
 # Move the tutorials to the proper folder
 mkdir -p $WM_PROJECT_USER_DIR/tutorials/convectiveFoam
 rsync -uav tutorials/* $WM_PROJECT_USER_DIR/tutorials/convectiveFoam
+
+# Move the tutorials to the proper folder
+mkdir -p $WM_PROJECT_USER_DIR/tutorials/convectiveFoamParticle
+rsync -uav tutorials/* $WM_PROJECT_USER_DIR/tutorials/convectiveFoamParticle
 
 # ----------------------------------------------------------------- end-of-file

@@ -45,6 +45,7 @@ Foam::PatchInjection<CloudType>::PatchInjection
         readScalar(this->coeffDict().lookup("parcelsPerSecond"))
     ),
     U0_(this->coeffDict().lookup("U0")),
+    parId_(readScalar(this->coeffDict().lookup("parId"))),
     flowRateProfile_
     (
         TimeFunction1<scalar>
@@ -83,6 +84,7 @@ Foam::PatchInjection<CloudType>::PatchInjection
     duration_(im.duration_),
     parcelsPerSecond_(im.parcelsPerSecond_),
     U0_(im.U0_),
+    parId_(im.parId_),
     flowRateProfile_(im.flowRateProfile_),
     sizeDistribution_(im.sizeDistribution_().clone().ptr())
 {}
@@ -199,6 +201,7 @@ void Foam::PatchInjection<CloudType>::setProperties
 {
     // set particle velocity
     parcel.U() = U0_;
+    parcel.typeId() = parId_;
 
     // set particle diameter
     parcel.d() = sizeDistribution_->sample();
