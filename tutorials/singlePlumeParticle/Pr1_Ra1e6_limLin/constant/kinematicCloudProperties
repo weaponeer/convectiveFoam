@@ -65,9 +65,10 @@ subModels
 	model1
 	{
             type             patchInjection;
+            parId            1; // id for enumerating multiple models
             patchName        floor;
             duration         15;
-	    parcelsPerSecond 100;
+	        parcelsPerSecond 100;
             massTotal        0;
             parcelBasisType  fixed;
             flowRateProfile  constant 1;
@@ -80,6 +81,30 @@ subModels
                 fixedValueDistribution
                 {
                     value   0.00007;
+                }
+            }
+        }
+    }
+
+    model2
+	{
+            type             patchInjection;
+            parId            2; // id for enumerating multiple models
+            patchName        floor;
+            duration         15;
+	        parcelsPerSecond 100;
+            massTotal        0;
+            parcelBasisType  fixed;
+            flowRateProfile  constant 1;
+            nParticle        1;
+            SOI              0.4;
+            U0               ( 0 0 0);
+            sizeDistribution
+            {
+                type        fixedValue;
+                fixedValueDistribution
+                {
+                    value   0.00001;
                 }
             }
         }
